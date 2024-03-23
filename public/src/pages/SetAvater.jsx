@@ -9,7 +9,7 @@ import { Buffer } from "buffer";
 import { setAvatarRoute } from "../utils/APIRoutes";
 
 export default function SetAvater() {
-  const api = "https://api.multiavatar.com/db3ea9f7a2a9ca88f9";
+  const api = "https://api.multiavatar.com/4645646";
   const navigate = useNavigate();
   const [avatars, setAvatars] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
